@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <title>Test Your Typing Speed</title>
 
@@ -19,26 +21,33 @@
         <div class="centerDiv">
             <h1>Test Your Typing Speed</h1>
             <h2 id="msg"></h2>
-            <textarea id="mywords" cols="100" rows="10" placeholder="Lets Get Started">
+            <textarea id="mywords" cols="50" rows="5" placeholder="Lets Get Started" style="font-size: 20pt">
 
 
             </textarea>
             <br />
-            <button id="btn" class="mainbtn">Start</button>
+            <button id="btn" class="btnn">Start</button>
 
         </div>
     </div>
+
+    <p>
+      
+        
+    </p>
 
 
 
 
 </body>
 
-                                                        <!-- javaScript -->
+<!-- javaScript -->
 
 <script>
     // here we created a array of words we want to display for the typing test
-    const setofWords = ["Hi Guys This Is Mohit"];
+    const setofWords = ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum fugit provident inventore temporibus repellendus commodi", " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, sint.",
+"Lorem ipsum dolor sit amet consectetur adipisicing elit.","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, doloribus voluptas.","  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo aut mollitia assumenda nostrum soluta consequatur modi totam necessitatibus nihil nesciunt."];
+    // FontColor(255,255,0,setofWords)
 
     // here we selected all the the elements with which i want to work with
     const msg = document.getElementById("msg");
